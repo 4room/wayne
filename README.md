@@ -68,7 +68,7 @@ $ docker-compose up mysql
 ```bash
 DBName = wayne
 # MySQL address,if MySQL is started via docker-compose,
-# Cannot be accessed directly through 127.0.0.1 under Mac OS.Please change to actual IP.
+# Cannot be accessed directly through 127.0.0.1 under Mac OS / Windows.Please change to actual IP.
 DBTns = tcp(127.0.0.1:3306)
 DBUser = root
 DBPasswd = root
